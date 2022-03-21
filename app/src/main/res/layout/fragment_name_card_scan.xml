@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#474646"
+    tools:context=".NameCardScan">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/NC_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:text="hello" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/NC_button_galery"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:text="파일 가져오기" />
+
+        <Button
+            android:id="@+id/NC_button_camera"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="230dp"
+            android:text="카메라 촬영" />
+    </FrameLayout>
+
+
+</LinearLayout>

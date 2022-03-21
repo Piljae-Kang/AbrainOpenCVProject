@@ -1,0 +1,1 @@
+C:\Users\pilja\AndroidStudioProjects\MyApplication\sdk\build\intermediates\cxx\Debug\283a3u5m\obj\armeabi-v7a
